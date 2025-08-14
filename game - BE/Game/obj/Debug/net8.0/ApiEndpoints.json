@@ -1,0 +1,48 @@
+[
+  {
+    "ContainingType": "Game.Controllers.GameController",
+    "Method": "GetChoices",
+    "RelativePath": "Game/choices",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[Game.Models.ChoiceModel, Game, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Game.Controllers.GameController",
+    "Method": "PlayGame",
+    "RelativePath": "Game/play",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "playRequest",
+        "Type": "Game.Models.PlayRequestModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Game.Controllers.GameController",
+    "Method": "GetRandomChoice",
+    "RelativePath": "Game/randomChoice",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  }
+]

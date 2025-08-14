@@ -1,0 +1,21 @@
+button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #23272b;
+  border: none;
+  cursor: pointer;
+  border-radius: 50%;
+  aspect-ratio: 1 / 1;
+  width: 10vw;
+  color: white;
+
+  &:hover {
+    transform: scale(1.1);
+    transition: transform 0.2s;
+  }
+}
+
+span {
+  font-size: 4vw;
+}
