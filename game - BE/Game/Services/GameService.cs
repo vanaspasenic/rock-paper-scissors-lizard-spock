@@ -59,7 +59,7 @@ namespace Game.Services
         private string DetermineResult(int playerChoiceId, int computerChoiceId)
         {
             if (playerChoiceId == computerChoiceId)
-                return "draw";
+                return "tie";
 
             if (WinningMap.TryGetValue(playerChoiceId, out var beats) && beats.Contains(computerChoiceId))
                 return "win";
